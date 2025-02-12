@@ -4,4 +4,4 @@ generatorOptions:
   disableNameSuffixHash: true
 
 resources:
-- ../../apps/velero
+- ../../baseline
