@@ -28,8 +28,6 @@ spec:
       containers:
         - name: velero
           image: velero/velero:v1.9.2  # Use the latest version
-          args:
-            - server
           env:
             - name: VELERO_S3_BUCKET
               value: "<YOUR_BUCKET_NAME>"
